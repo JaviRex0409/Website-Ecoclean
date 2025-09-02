@@ -93,14 +93,15 @@ export default function HomePage() {
               <Phone className="h-5 w-5 mr-2" />
               (667) 729-7474
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-blue-900"
-              onClick={() => scrollToSection("servicios")}
+            <Button 
+            size="lg"
+            variant="outline"
+            className="border-white text-blue-600 hover:bg-white hover:text-blue-900"
+            onClick={() => scrollToSection("servicios")}
             >
-              Ver Servicios
+             Ver Servicios
             </Button>
+
           </div>
         </div>
       </section>
@@ -111,7 +112,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/placeholder.svg?height=400&width=600"
+                src="/Servicios/IMG_7542-e.jpg?height=400&width=600"
                 alt="Instalaciones y equipos de Ecoclean"
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
               />
@@ -203,10 +204,6 @@ export default function HomePage() {
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
                     Reportes detallados con imágenes
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Servicio de emergencia 24/7
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
@@ -317,16 +314,16 @@ export default function HomePage() {
                 <div className="bg-red-100 p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                   <Shield className="h-8 w-8 text-red-600" />
                 </div>
-                <CardTitle className="text-xl">Servicios de Emergencia</CardTitle>
+                <CardTitle className="text-xl">Servicios de Gruas</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4">
-                  Atención inmediata para emergencias ambientales y sanitarias
+                  Atención inmediata para arrastre o traslado
                 </CardDescription>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Disponible 24 horas
+                    Disponible en horarios de atención
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
@@ -358,7 +355,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="/Servicios/IMG_7669-e.jpg?height=300&width=400"
                 alt="Baños portátiles en construcción"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -369,7 +366,7 @@ export default function HomePage() {
 
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="/Servicios/IMG_7721-e.jpg?height=300&width=400"
                 alt="Limpieza de fosa séptica"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -380,7 +377,7 @@ export default function HomePage() {
 
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="/Servicios/IMG_7823.JPG?height=300&width=400"
                 alt="Entrega de agua potable"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -391,7 +388,7 @@ export default function HomePage() {
 
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="/Servicios/IMG_7567-e.jpg?height=300&width=400"
                 alt="Sondeo de drenajes"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -402,7 +399,7 @@ export default function HomePage() {
 
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="/Servicios/IMG_7536-e.jpg?height=300&width=400"
                 alt="Maquinaria pesada"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -413,7 +410,40 @@ export default function HomePage() {
 
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="/Servicios/IMG_7757-e.jpg?height=300&width=400"
+                alt="Limpieza de trampas de grasa"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p className="text-white text-lg font-semibold">Limpieza de trampas de grasa</p>
+              </div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img
+                src="/Servicios/IMG_7648-e.jpg?height=300&width=400"
+                alt="Servicio de Montacargas"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p className="text-white text-lg font-semibold">Servicio de Montacargas</p>
+              </div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img
+                src="/Servicios/IMG_7628-e.jpg?height=300&width=400"
+                alt="Servicio de gruas"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <p className="text-white text-lg font-semibold">Servicio de gruas</p>
+              </div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img
+                src="/Servicios/IMG_7556-e.jpg?height=300&width=400"
                 alt="Equipo de trabajo"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -441,7 +471,7 @@ export default function HomePage() {
                   <Badge className="bg-green-500">
                     <CheckCircle className="h-4 w-4" />
                   </Badge>
-                  <span>Más de 10 años de experiencia</span>
+                  <span>Más de 15 años de experiencia</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Badge className="bg-green-500">
@@ -454,12 +484,6 @@ export default function HomePage() {
                     <CheckCircle className="h-4 w-4" />
                   </Badge>
                   <span>Equipos de última tecnología</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Badge className="bg-green-500">
-                    <CheckCircle className="h-4 w-4" />
-                  </Badge>
-                  <span>Servicio de emergencia 24/7</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Badge className="bg-green-500">
@@ -492,12 +516,12 @@ export default function HomePage() {
                   <div className="text-sm">Clientes Satisfechos</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-green-400">10+</div>
+                  <div className="text-3xl font-bold text-green-400">15+</div>
                   <div className="text-sm">Años de Experiencia</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-green-400">24/7</div>
-                  <div className="text-sm">Servicio Disponible</div>
+                  <div className="text-3xl font-bold text-green-400">11 Horas</div>
+                  <div className="text-sm">De Servicios Disponibles</div>
                 </div>
               </div>
             </div>
@@ -621,7 +645,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <p className="text-lg font-semibold">Email</p>
-                  <p className="text-teal-100">culiacan@ecoclean.mx</p>
+                  <p className="text-teal-100">noymac@hotmail.com</p>
                 </div>
               </div>
             </div>
@@ -738,7 +762,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Contáctanos</h2>
-            <p className="text-xl text-gray-300">Estamos listos para atender sus necesidades las 24 horas del día</p>
+            <p className="text-xl text-gray-300">Estamos listos para atender sus necesidades</p>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">
@@ -766,8 +790,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-300 mb-2">Envíanos un correo</p>
-                <p className="text-lg text-green-400">info@ecocleanculiacan.mx</p>
-                <p className="text-lg text-green-400">ventas@ecocleanculiacan.mx</p>
+                <p className="text-lg text-green-400">noymac@hotmail.com</p>
               </CardContent>
             </Card>
 
@@ -789,8 +812,8 @@ export default function HomePage() {
               <Clock className="h-5 w-5 text-green-400" />
               <span className="text-lg">Horarios de Atención</span>
             </div>
-            <p className="text-gray-300">Lunes a Domingo: 24 horas</p>
-            <p className="text-green-400 font-semibold text-lg">¡Servicio de emergencia disponible!</p>
+            <p className="text-gray-300">Lunes a Sabado: De 7:00 AM a 6:00 PM</p>
+            <p className="text-green-400 font-semibold text-lg">¡Servicios disponibles!</p>
 
             <div className="mt-8 p-6 bg-green-600 rounded-lg inline-block">
               <h3 className="text-xl font-bold mb-2">¿Necesitas una cotización?</h3>
@@ -830,7 +853,7 @@ export default function HomePage() {
                 <li>Limpieza de Fosas Sépticas</li>
                 <li>Venta de Agua Potable</li>
                 <li>Maquinaria Pesada</li>
-                <li>Servicios de Emergencia</li>
+                <li>Servicios de Gruas</li>
               </ul>
             </div>
 
@@ -854,7 +877,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-center">
                   <Mail className="h-4 w-4 mr-2" />
-                  info@ecocleanculiacan.mx
+                  noymac@hotmail.com
                 </li>
                 <li className="flex items-center">
                   <MapPin className="h-4 w-4 mr-2" />
@@ -862,14 +885,14 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-center">
                   <Clock className="h-4 w-4 mr-2" />
-                  Servicio 24/7
+                  Servicio desde la 7:00 AM hasta las 6:00 PM
                 </li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 ECOCLEAN Culiacán. Todos los derechos reservados.</p>
+            <p>&copy; 2008 ECOCLEAN Culiacán. Todos los derechos reservados.</p>
             <p className="mt-2">Servicios ambientales profesionales en Sinaloa</p>
           </div>
         </div>
