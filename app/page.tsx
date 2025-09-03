@@ -1,6 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Phone, Mail, MapPin, Clock, CheckCircle, Truck, Droplets, Wrench, Building, Star, Shield } from "lucide-react"
@@ -69,6 +70,50 @@ export default function HomePage() {
                 Contacto
               </button>
             </nav>
+
+            <div className="flex space-x-4">
+  
+          {/* Botón de Instagram */}
+          <Button 
+            asChild
+            className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full"
+          >
+            <a 
+              href="https://www.instagram.com/ecocleanservicioscln/#" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" 
+                  fill="currentColor" 
+                  viewBox="0 0 24 24" 
+                  className="h-5 w-5 inline-block mr-2">
+                <path d="M7.5 2h9a5.5 5.5 0 015.5 5.5v9a5.5 5.5 0 01-5.5 5.5h-9A5.5 5.5 0 012 16.5v-9A5.5 5.5 0 017.5 2zm0 2A3.5 3.5 0 004 7.5v9A3.5 3.5 0 007.5 20h9a3.5 3.5 0 003.5-3.5v-9A3.5 3.5 0 0016.5 4h-9zm9.75 1.25a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6z"/>
+              </svg>
+              Instagram
+            </a>
+          </Button>
+
+          {/* Botón de Facebook */}
+          <Button 
+            asChild
+            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full"
+          >
+            <a 
+              href="https://www.facebook.com/ecocleanculiacan" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" 
+                  fill="currentColor" 
+                  viewBox="0 0 24 24" 
+                  className="h-5 w-5 inline-block mr-2">
+                <path d="M22 12a10 10 0 10-11.5 9.9v-7h-2v-3h2v-2c0-2 1.2-3.1 3-3.1.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 1.2v1.7h2.3l-.4 3h-1.9v7A10 10 0 0022 12z"/>
+              </svg>
+              Facebook
+            </a>
+          </Button>
+        </div>
+
             <Button onClick={handleCall} className="bg-green-500 hover:bg-green-600">
               <Phone className="h-4 w-4 mr-2" />
               Llamar Ahora
@@ -762,7 +807,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Contáctanos</h2>
-            <p className="text-xl text-gray-300">Estamos listos para atender sus necesidades</p>
+            <p className="text-xl text-gray-300">Estamos listos para atender sus necesidades las 24 horas del día</p>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">
@@ -842,7 +887,58 @@ export default function HomePage() {
                 Servicios ambientales profesionales en Culiacán, Sinaloa. Comprometidos con un futuro más limpio y
                 sostenible.
               </p>
-              <p className="text-green-400 font-semibold">¡Síguenos en Facebook!</p>
+              <p className="text-green-400 font-semibold">¡Síguenos en Facebook y en instagram!</p>
+              <div className="flex space-x-4">
+           
+            {/* Botón de Instagram */}
+            <Button 
+              asChild
+              className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full"
+            >
+              <a 
+                href="https://www.instagram.com/ecocleanservicioscln/#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                    fill="currentColor" 
+                    viewBox="0 0 24 24" 
+                    className="h-5 w-5 inline-block mr-2">
+                  <path d="M7.5 2h9a5.5 5.5 0 015.5 5.5v9a5.5 5.5 0 01-5.5 5.5h-9A5.5 5.5 0 012 16.5v-9A5.5 5.5 0 017.5 2zm0 2A3.5 3.5 0 004 7.5v9A3.5 3.5 0 007.5 20h9a3.5 3.5 0 003.5-3.5v-9A3.5 3.5 0 0016.5 4h-9zm9.75 1.25a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6z"/>
+                </svg>
+                Instagram
+              </a>
+            </Button>
+
+            {/* Botón de Facebook */}
+<Button
+  asChild
+  className="h-12 w-12 rounded-full bg-blue-600 hover:bg-blue-700 p-0 shadow-md ring-1 ring-white/20"
+>
+  <a
+  href="https://www.facebook.com/ecocleanculiacan"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Facebook de Ecoclean"
+  className="flex items-center justify-center h-14 w-14 rounded-full bg-blue-600 hover:bg-blue-700 shadow-md"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    className="h-8 w-8 text-white"
+  >
+    <path
+      fill="currentColor"
+      d="M22 12a10 10 0 10-11.5 9.9v-7h-2v-3h2v-2c0-2 
+      1.2-3.1 3-3.1.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 
+      1.2v1.7h2.3l-.4 3h-1.9v7A10 10 0 0022 12z"
+    />
+  </svg>
+</a>
+</Button>
+
+          </div>
+
             </div>
 
             <div>
