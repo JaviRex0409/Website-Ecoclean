@@ -30,7 +30,15 @@ export default function HomePage() {
               <div className="bg-green-500 p-2 rounded-full">
                 <Droplets className="h-6 w-6" />
               </div>
-              <h1 className="text-2xl font-bold">ECOCLEAN</h1>
+              <h1 className="text-2xl font-bold"></h1>
+              <div className="flex items-center">
+            <img
+              src="/Servicios/Ecoclean_Image_Logo_1.png?height=300&width=400"
+              alt="Logo Ecoclean"
+              className="h-12 w-auto object-contain"
+            />
+          </div>
+
             </div>
             <nav className="hidden md:flex space-x-6">
               <button
