@@ -79,7 +79,7 @@ export default function HomePage() {
             className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full"
           >
             <a 
-              href="https://www.instagram.com/ecocleanservicioscln/#" 
+              href="https://www.instagram.com/ecocleanservicecln?igsh=NzYwcXp4N2E5d2w2#" 
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -896,7 +896,7 @@ export default function HomePage() {
               className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full"
             >
               <a 
-                href="https://www.instagram.com/ecocleanservicioscln/#" 
+                href="https://www.instagram.com/ecocleanservicecln?igsh=NzYwcXp4N2E5d2w2" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
