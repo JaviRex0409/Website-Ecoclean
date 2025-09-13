@@ -792,7 +792,12 @@ export default function HomePage() {
                   ></textarea>
                 </div>
 
-                <Button className="w-full mt-6 bg-green-500 hover:bg-green-600 py-3">
+                <Button
+                  className="w-full mt-6 bg-green-500 hover:bg-green-600 py-3 flex items-center justify-center"
+                  onClick={() =>
+                    window.open("https://wa.me/5216672220738", "_blank")
+                  }
+                >
                   <Mail className="h-5 w-5 mr-2" />
                   Enviar Mensaje
                 </Button>
