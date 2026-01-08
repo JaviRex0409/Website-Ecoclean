@@ -214,7 +214,8 @@ export default function HomePage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
                 <div className="bg-blue-100 p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Building className="h-8 w-8 text-blue-600" />
+                  {/* Ícono de baño portátil */}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="7" y="4" width="10" height="16" rx="2" strokeWidth="2"/><circle cx="12" cy="16" r="1.5" fill="currentColor"/></svg>
                 </div>
                 <CardTitle className="text-xl">Renta de Baños Portátiles</CardTitle>
               </CardHeader>
@@ -246,7 +247,8 @@ export default function HomePage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
                 <div className="bg-green-100 p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Wrench className="h-8 w-8 text-green-600" />
+                  {/* Ícono de drenaje (llave inglesa y gota) */}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeWidth="2" d="M15.232 5.232a3 3 0 114.243 4.243l-7.071 7.071a3 3 0 01-4.243-4.243l7.071-7.071z"/><path strokeWidth="2" d="M8 16v2a2 2 0 002 2h2"/></svg>
                 </div>
                 <CardTitle className="text-xl">Sondeos de Drenajes y Destapes de Drenajes</CardTitle>
               </CardHeader>
@@ -274,7 +276,8 @@ export default function HomePage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
                 <div className="bg-blue-100 p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Droplets className="h-8 w-8 text-blue-600" />
+                  {/* Ícono de fosa séptica (tanque de agua) */}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="8" width="16" height="8" rx="4" strokeWidth="2"/><path strokeWidth="2" d="M4 12h16"/></svg>
                 </div>
                 <CardTitle className="text-xl">Limpieza de Fosas Sépticas</CardTitle>
               </CardHeader>
@@ -306,7 +309,8 @@ export default function HomePage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
                 <div className="bg-green-100 p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Truck className="h-8 w-8 text-green-600" />
+                  {/* Ícono de pipa de agua */}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="2" y="13" width="20" height="5" rx="2" strokeWidth="2"/><circle cx="7" cy="15.5" r="1.5" fill="currentColor"/><circle cx="17" cy="15.5" r="1.5" fill="currentColor"/></svg>
                 </div>
                 <CardTitle className="text-xl">Venta de Agua Potable</CardTitle>
               </CardHeader>
@@ -338,7 +342,8 @@ export default function HomePage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
                 <div className="bg-yellow-100 p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Building className="h-8 w-8 text-yellow-600" />
+                  {/* Ícono de maquinaria pesada (excavadora) */}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="3" y="13" width="13" height="5" rx="2" strokeWidth="2"/><path strokeWidth="2" d="M16 13l3-5 2 1-3 5z"/><circle cx="7" cy="17" r="1.5" fill="currentColor"/><circle cx="15" cy="17" r="1.5" fill="currentColor"/></svg>
                 </div>
                 <CardTitle className="text-xl">Maquinaria Pesada</CardTitle>
               </CardHeader>
@@ -370,7 +375,8 @@ export default function HomePage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
                 <div className="bg-red-100 p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Shield className="h-8 w-8 text-red-600" />
+                  {/* Ícono de grúa */}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="3" y="15" width="13" height="4" rx="2" strokeWidth="2"/><path strokeWidth="2" d="M16 15l3-7 2 1-3 7z"/><circle cx="7" cy="17" r="1.5" fill="currentColor"/><circle cx="15" cy="17" r="1.5" fill="currentColor"/></svg>
                 </div>
                 <CardTitle className="text-xl">Servicios de Gruas</CardTitle>
               </CardHeader>
@@ -852,9 +858,8 @@ export default function HomePage() {
                 <CardTitle className="text-white">Email</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-gray-300 mb-2">Envíanos un correo a</p>
+                <p className="text-gray-300 mb-2">Envíanos un correo</p>
                 <p className="text-lg text-green-400">noymac@hotmail.com</p>
-                <p className="text-gray-300 mb-2">Para cualquier cotización</p>
               </CardContent>
             </Card>
 
