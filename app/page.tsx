@@ -133,13 +133,18 @@ export default function HomePage() {
       {/* Hero Section */}
       <section id="inicio" className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20 mt-16">
         <div className="container mx-auto px-4 text-center">
+          <img
+            src="/Servicios/Ecoclean_Image_Logo_1.png?height=300&width=400"
+            alt="Logo Ecoclean"
+            className="h-28 w-auto object-contain mx-auto mb-6"
+          />
           <h2 className="text-5xl font-bold mb-6">
             ECOCLEAN <span className="text-green-400">Culiacán</span>
           </h2>
           <p className="text-2xl mb-4 font-semibold">Servicios Ambientales Profesionales</p>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Especialistas en renta de baños portátiles, limpieza de fosas sépticas, sondeos de drenajes, venta de agua
-            potable y maquinaria pesada. Más de 10 años sirviendo a Culiacán y sus alrededores.
+            Especialistas en renta de baños portátiles, limpieza de fosas sépticas, Sondeos de Drenajes y Destapes de Drenajes, venta de agua
+            potable y maquinaria pesada. Más de 15 años sirviendo a Culiacán y sus alrededores.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" onClick={handleCall} className="bg-green-500 hover:bg-green-600">
@@ -243,7 +248,7 @@ export default function HomePage() {
                 <div className="bg-green-100 p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                   <Wrench className="h-8 w-8 text-green-600" />
                 </div>
-                <CardTitle className="text-xl">Sondeos de Drenajes</CardTitle>
+                <CardTitle className="text-xl">Sondeos de Drenajes y Destapes de Drenajes</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-center mb-4">
@@ -770,7 +775,7 @@ export default function HomePage() {
                       <option value="">Selecciona un servicio</option>
                       <option value="baños">Renta de Baños Portátiles</option>
                       <option value="fosas">Limpieza de Fosas Sépticas</option>
-                      <option value="sondeos">Sondeos de Drenajes</option>
+                      <option value="sondeos">Sondeos de Drenajes y Destapes de Drenajes</option>
                       <option value="agua">Venta de Agua Potable</option>
                       <option value="maquinaria">Maquinaria Pesada</option>
                       <option value="emergencia">Servicio de Emergencia</option>
@@ -847,8 +852,9 @@ export default function HomePage() {
                 <CardTitle className="text-white">Email</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-gray-300 mb-2">Envíanos un correo</p>
+                <p className="text-gray-300 mb-2">Envíanos un correo a</p>
                 <p className="text-lg text-green-400">noymac@hotmail.com</p>
+                <p className="text-gray-300 mb-2">Para cualquier cotización</p>
               </CardContent>
             </Card>
 
@@ -958,7 +964,7 @@ export default function HomePage() {
               <h4 className="text-lg font-semibold mb-4">Servicios</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>Renta de Baños Portátiles</li>
-                <li>Sondeos de Drenajes</li>
+                <li>Sondeos de Drenajes y Destapes de Drenajes</li>
                 <li>Limpieza de Fosas Sépticas</li>
                 <li>Venta de Agua Potable</li>
                 <li>Maquinaria Pesada</li>
